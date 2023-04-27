@@ -4,7 +4,7 @@ import Avatar from "../../Assets/Img/Avatar.png";
 
 const Navbar = () => {
   return (
-    <div className="relative w-full flex gap-5 justify-between items-center ">
+    <div className="relative w-full flex gap-5 justify-between items-center mb-10">
       <div className="flex w-11/12 items-center relative">
         <span className="absolute p-5 cursor-pointer">{icons.search}</span>
         <input className="h-16 pl-10 w-full border-div rounded-md outline-0" type="search" />

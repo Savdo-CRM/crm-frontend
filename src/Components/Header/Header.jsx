@@ -6,7 +6,7 @@ import { Multitype } from './Multitype';
 
 const Header = () => {
     return (
-        <div className='w-full mt-10 p-5 flex justify-around flex-wrap bg-sidebarWhite'>
+        <div className='w-full p-5 pt-20 flex justify-around flex-wrap bg-sidebarWhite'>
             <BasicBar />
             <LineChart />
             {/* <Multitype /> */}

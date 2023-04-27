@@ -21,7 +21,7 @@ const Sidebar = () => {
                 <ul className='pt-6'>
                     {sidebarMenu.map((sidebar, index) => (
                         <li key={index} className={`flex  rounded-md p-2 cursor-pointer hover:bg-div hover:text-textWhite text-sidebarColor text-sm items-center gap-x-4`}>
-                            <Link className='flex items-center gap-x-4'>
+                            <Link to={sidebar.path} className='flex items-center gap-x-4'>
                                 <img className='' src={require(`../../Assets/Img/${sidebar.src}.png`)} alt="icons" />
                                 <span className={`${!open && "hidden"} text-xl origin-left`}>{sidebar.title}</span>
                             </Link>
