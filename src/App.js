@@ -1,8 +1,9 @@
+import Director from "./Pages/Director/Director";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-textColor p-5">Hello World</h1>
+    <div className="">
+      <Director />
     </div>
   );
 }
